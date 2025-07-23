@@ -1,0 +1,14 @@
+{
+  "emailLabel": "E-Mail-Adresse für Download",
+  "emailPlaceholder": "E-Mail-Adresse für Download",
+  "privacyLabel": "Ich habe die <a>Datenschutzerklärung</a> gelesen und akzeptiere sie.",
+  "downloadButton": "Lebenslauf herunterladen",
+  "doubleOptInHint": "Hinweis: Aus Datenschutz- und Missbrauchsschutzgründen erhältst du den Download-Link erst nach Bestätigung deiner E-Mail-Adresse (Double Opt-In).",
+  "privacyHint": "Deine E-Mail wird ausschließlich für den einmaligen Versand des Lebenslaufs verwendet. Der Download-Link ist aus Sicherheitsgründen nur einmal gültig.",
+  "privacyLink": "Datenschutz",
+  "impressumLink": "Impressum",
+  "successMsg": "Bitte prüfe deine E-Mails und bestätige die Adresse. Der Download-Link wird dir nach Bestätigung zugeschickt.",
+  "errorMsg": "Fehler beim Senden. Bitte versuche es später erneut.",
+  "invalidEmail": "Bitte gib eine gültige E-Mail-Adresse ein.",
+  "required": "Pflichtfeld"
+} 

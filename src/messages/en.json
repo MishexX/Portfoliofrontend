@@ -1,0 +1,14 @@
+{
+  "emailLabel": "Email address for download",
+  "emailPlaceholder": "Email address for download",
+  "privacyLabel": "I have read and accept the <a>privacy policy</a>.",
+  "downloadButton": "Download CV",
+  "doubleOptInHint": "Note: For privacy and anti-abuse reasons, you will only receive the download link after confirming your email address (double opt-in).",
+  "privacyHint": "Your email will only be used for the one-time delivery of the CV. The download link is valid only once for security reasons.",
+  "privacyLink": "Privacy Policy",
+  "impressumLink": "Imprint",
+  "successMsg": "Please check your email and confirm your address. The download link will be sent to you after confirmation.",
+  "errorMsg": "Sending failed. Please try again later.",
+  "invalidEmail": "Please enter a valid email address.",
+  "required": "Required field"
+} 
