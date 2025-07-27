@@ -1,27 +1,31 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  async rewrites() {
+  // Production optimizations
+  output: 'standalone',
+  experimental: {
+    // Enable App Router features
+    appDir: true,
+  },
+  // Security headers
+  async headers() {
     return [
       {
-        source: '/api/skills',
-        destination: 'http://localhost:5000/api/skills',
-      },
-      {
-        source: '/api/experience',
-        destination: 'http://localhost:5000/api/experience',
-      },
-      {
-        source: '/api/education',
-        destination: 'http://localhost:5000/api/education',
-      },
-      {
-        source: '/api/profile-image',
-        destination: 'http://localhost:5000/api/profile-image',
-      },
-      {
-        source: '/api/:path*',
-        destination: 'http://localhost:5000/api/:path*',
+        source: '/(.*)',
+        headers: [
+          {
+            key: 'X-Frame-Options',
+            value: 'DENY',
+          },
+          {
+            key: 'X-Content-Type-Options',
+            value: 'nosniff',
+          },
+          {
+            key: 'Referrer-Policy',
+            value: 'origin-when-cross-origin',
+          },
+        ],
       },
     ];
   },
